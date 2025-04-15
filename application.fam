@@ -1,0 +1,12 @@
+App(
+    appid="dictionary",
+    name="Dictionary",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="dictionary_app_main",
+    stack_size=2 * 1024,
+    fap_icon="icons/dictionary_10px.png",
+    fap_category="Tools",
+    fap_author="Dictionary App Developer",
+    fap_version=(1, 0),
+    fap_description="Multilingual dictionary with English-Russian translation support",
+)
