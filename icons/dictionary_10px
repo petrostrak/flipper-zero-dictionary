@@ -1,0 +1,17 @@
+#include "dictionary_icons.h"
+
+// Dictionary 10x10 icon
+const uint8_t dictionary_10px_data[] = {
+    0x7E, 0x00, // ▓▓▓▓▓▓▓░░░
+    0x81, 0x00, // ▓░░░░░░▓░░
+    0xA1, 0x00, // ▓░▓░░░░▓░░
+    0xA1, 0x00, // ▓░▓░░░░▓░░
+    0xA5, 0x00, // ▓░▓░░▓░▓░░
+    0xB9, 0x00, // ▓░▓▓▓░░▓░░
+    0x85, 0x00, // ▓░░░░▓░▓░░
+    0x81, 0x00, // ▓░░░░░░▓░░
+    0x7E, 0x00, // ░▓▓▓▓▓▓░░░
+    0x00, 0x00, // ░░░░░░░░░░
+};
+
+const Icon I_dictionary_10px = {10, 10, 2, 4, dictionary_10px_data};
